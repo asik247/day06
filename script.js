@@ -108,9 +108,25 @@ let result = marks>50?"A":"fail";
 console.log(result);
 
 // Modullo
-let number = prompt("Enter the number");
-if(number%2===0){
-    console.log('this is a even number');
-}else{
-    console.log("this is a odd nubmer");
+// let number = prompt("Enter the number");
+// if(number%2===0){
+//     console.log('this is a even number');
+// }else{
+//     console.log("this is a odd nubmer");
+// }
+
+// DisCoutn
+let amoutn = 10000;
+if(amoutn>2000){
+    let dis = amoutn*10/100;
+    let total = amoutn-dis
+    console.log('dis'+total);
+    // console.log(dis);
+}
+
+let myTaka = 100;
+if(myTaka>=100){
+    let myDis = myTaka*10/100;
+    let back = myTaka -myDis
+    console.log(back);
 }
