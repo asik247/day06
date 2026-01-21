@@ -24,7 +24,24 @@ if(age>=18){
 }else{
     console.log('Minor');
 }
+let score = 75;
+if(score>50){
+    console.log('Pass');
+}else{
+    console.log('Fail');
+}
 
 let x = 20;
 let y = 20;
 console.log(x!==y);
+let k = 0;
+let l = false;
+console.log(k==l);
+
+console.log(null==undefined);
+console.log("5">3);
+
+let m = '';
+let n = 0;
+console.log(m==n);
+console.log(m===n);
