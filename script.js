@@ -77,3 +77,21 @@ if (myAge>=20 && hasId===true){
 }else{
     console.log("Not Entry");
 }
+
+// or || operation
+
+let passWord = true;
+let key = false;
+if(passWord===true || key===true){
+    console.log("ok done go now.");
+}
+// Complex condition
+let salary = 5000;
+let hasCar = true;
+let isBCS = true;
+
+if((salary>20000 || hasCar === true) && isBCS === true){
+    console.log("your are sellected");
+}else{
+    console.log("you are not sellected");
+}
