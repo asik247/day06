@@ -25,3 +25,6 @@ if(age>=18){
     console.log('Minor');
 }
 
+let x = 20;
+let y = 20;
+console.log(x!==y);
