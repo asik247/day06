@@ -45,3 +45,25 @@ let m = '';
 let n = 0;
 console.log(m==n);
 console.log(m===n);
+
+let year = 20;
+if(year>18 & year>13){
+    console.log('all okk');
+}else{
+    console.log('not ok');
+}
+
+// nested if else statement
+let yourAge = 15;
+let man = false;
+if(yourAge>=15){
+    console.log("ok tumi 1st condition puron korce");
+    if(man==true){
+        console.log("2nd condition right");
+    }
+else{
+    console.log("2nd condition false");
+}
+}else{
+    console.log("tumi 1st condition fali korco");
+}
