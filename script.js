@@ -67,3 +67,13 @@ else{
 }else{
     console.log("tumi 1st condition fali korco");
 }
+
+// if else entry
+let myAge = 20;
+let hasId = true;
+
+if (myAge>=20 && hasId===true){
+    console.log("Entry free");
+}else{
+    console.log("Not Entry");
+}
