@@ -130,3 +130,17 @@ if(myTaka>=100){
     let back = myTaka -myDis
     console.log(back);
 }
+
+let ages = 95;
+let price = 500;
+if(age<=12){
+    console.log("you eat free");
+}
+else if(ages>80){
+    let diss = price *50/100;
+    let payamout = price - diss;
+    console.log(payamout +" dite hobe taka");
+}
+else{
+    console.log("full paid");
+}
