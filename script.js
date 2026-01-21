@@ -95,3 +95,22 @@ if((salary>20000 || hasCar === true) && isBCS === true){
 }else{
     console.log("you are not sellected");
 }
+// not operation
+let isBolcked = false;
+if(!isBolcked){
+    console.log("active");
+}
+
+// Ternary operatin 
+
+marks = 4;
+let result = marks>50?"A":"fail";
+console.log(result);
+
+// Modullo
+let number = prompt("Enter the number");
+if(number%2===0){
+    console.log('this is a even number');
+}else{
+    console.log("this is a odd nubmer");
+}
